@@ -142,6 +142,12 @@ bool search(int rollNo, Node** previous, Node** current)
 		cout << "\x1b[32mRecord with roll number " << rollNo << " delete\x1b[0m" << endl;
 	}
 
+	bool listEmpty()
+	{
+		return (START == NULL);
+	}
+
+
 
 
 
